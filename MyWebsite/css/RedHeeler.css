@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    display: grid;
+    margin: 0;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+
+h1 {
+    text-align: center;
+    color: wheat;
+}
+
+#header {
+    background-color:firebrick;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.sidenav {
+    background-color:sandybrown;
+}
+
+.left {
+
+}
+
+#main-content {
+    background-color:wheat;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer {
+    background-color:slategrey;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
