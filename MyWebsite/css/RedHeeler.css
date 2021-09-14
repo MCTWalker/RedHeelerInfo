@@ -11,6 +11,10 @@ h1 {
     color: white;
 }
 
+.sidenav a {
+    display: block;
+}
+
 #header {
     background-color:#dd2c00;
     grid-column-start: 1;
